@@ -1,0 +1,7 @@
+public class SolveJava {
+    public static void main(String[] args) {
+        byte[] correctPasswordBytes = {75, 110, 111, 87, 95, 89, 111, 117, 82, 95, 65, 53, 67, 49, 49, 53, 125};
+        String correctPassword = new String(correctPasswordBytes);
+        System.out.println(correctPassword);
+    }
+}
